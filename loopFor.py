@@ -38,4 +38,9 @@ if __name__ == '__main__':
             # break
         else:
             print(l)
-
+    print('-'*60)
+    cursos_verao = ['C#', 'Python', 'PHP']
+    cursos_outono = cursos_verao[:]
+    cursos_outono.extend(['HTML', 'CSS', 'JS'])
+    print(f'Cursos de verão: {cursos_verao}')
+    print(f'Cursos de outono: {cursos_outono}')
